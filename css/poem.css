@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Marcellus|Marcellus+SC&display=swap');
+
+
+body, html {
+	overflow-y:  !important; 
+}
+
+.hideme
+{
+    opacity:0;
+}
+
+.poem-wrapper {
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
+.poem-header {
+  background-color: #363F48;
+    width: 100rem;
+    margin-left: -35rem;
+    padding: 30px 10px;
+    height: 10rem;
+}
+.poem-header h1 {
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+}
+.poem-header span {
+  color: #9CABB1;
+  letter-spacing: .3em;
+  line-height: 1.5em;
+  font-family: 'Marcellus', serif;
+}
+.poem-header:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+	width: 0; 
+	height: 0; 
+  position: relative;
+  top: 24px;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	
+	border-top: 20px solid #363F48;  
+}
+
+.poem-content {
+  padding: 40px 20px 40px;
+  line-height: 1.8em;
+  font-size: 33px;
+  background-color: #ccc;
+  font-family: 'Dancing Script', cursive;
+  color: #363f48;
+  
+  text-align: left;
+  width:55rem;
+  margin-left: -10rem;
+  
+}
+.poem-content span {
+  display: block;
+}
+
+
+
+@media all and (min-width: 480px) {
+  .poem-wrapper {
+    width: 75%;
+  }
+}
+
+@media all and (min-width: 720px) {
+  .poem-wrapper {
+    width: 33%;
+  }
+}
+
+#para1 {opacity:0}
+
